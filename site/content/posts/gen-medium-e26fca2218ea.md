@@ -1,8 +1,0 @@
----
-title: "Hello World..."
-date: "2017-08-11T21:06:37.000Z"
-description: "We are Product people and Developers innovating the financial space. Our product is unique because we have four interest groups to keep happy. We..."
-image: 
-link: https://ygrene.tech/hello-world-e26fca2218ea?source&#x3D;rss-993e52e8750e------2
----
-<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*o3lK8UgHyY4_sV5-M4nOwg.jpeg" /></figure><p>We are Product people and Developers innovating the financial space. Our product is unique because we have four interest groups to keep happy. We serve end users (which are the homeowners who are receiving the financing), contractors who are the representation of our offerings to homeowners, Ygrene employees who help administrate our product, and the governments (or jurisdictions) who allow us to operate in their territories.</p><p>Our organization is going through a radical digital transformation. We are documenting it here in this blog. Join us as we take all the buzz wordy things (and a few innovations of our own) and implement them into our process.</p><p>It is our goal to be as open and honest as possible with how we are delivering value to our stakeholders. That way you can learn from our successes and our failures in your own company.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=e26fca2218ea" width="1" height="1"><hr><p><a href="https://ygrene.tech/hello-world-e26fca2218ea">Hello World</a> was originally published in <a href="https://ygrene.tech">Ygrene Tech</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>

@@ -98,27 +98,3 @@ function buildSite(cb, options) {
     }
   });
 }
-
-gulp.task('sync-medium', () => {
-  const Parser = require('rss-parser');
-  const h = require('handlebars');
-  const template = h.compile(fs.readFileSync('_post-template.md').toString());
-  const parser = new Parser();
-  const feed = parser.parseURL('https://medium.com/feed/@austbot');
-  const striptags = require('striptags');
-  feed
-    .then((r) => r.items.filter((item) => 'categories' in item))
-    .then((list) => {
-      list.forEach((file) => {
-        const guid = file.guid.split('/').reverse()[0];
-        const title = striptags(unescape(file.title.slice(0, 100))) + '...';
-        const description = striptags(file['content:encoded'].slice(0, 256)) + '...';
-        const content = file['content:encoded'];
-        const postContext = template({...file, content, description, title});
-        fs.writeFileSync(`./site/content/posts/gen-medium-${guid}.md`, postContext);
-      });
-    })
-    .catch((e) => {
-      console.log(e);
-    });
-});

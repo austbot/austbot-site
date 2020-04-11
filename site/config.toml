@@ -41,10 +41,6 @@ disqusShortname = "" # Enable or disable Disqus.
     weight = 1
     url = "https://github.com/austbot/"
 [[params.social]]
-    name = "Twitter"
-    weight = 2
-    url = "https://twitter.com/_austbot/"
-[[params.social]]
     name = "LinkedIn"
     weight = 3
     url = "https://www.linkedin.com/in/austbot/"
@@ -53,7 +49,7 @@ disqusShortname = "" # Enable or disable Disqus.
 [[menu.main]]
     name = "Blog"
     weight = 1
-    url  = "/posts/"
+    url  = "https://medium.com/@austbot"
 [[menu.main]]
     name = "About"
     weight = 2
